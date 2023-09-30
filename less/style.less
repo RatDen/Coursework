@@ -1,0 +1,260 @@
+@latte: #a67b5b;
+@coffee: #6f4e37;
+@espresso: #4b3621;
+@milk: #f5edda;
+@vanilla: #f3e5ab;
+@vanilla-light: #fff2db;
+
+@font-face {
+	font-family: "LoveCoffee";  
+	src: url("../fonts/LoveCoffee.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+}
+.LoveCoffee() {
+	font-family: 'LoveCoffee', sans-serif;
+	font-weight: 300;
+}
+
+html {
+	font-style: 10px;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #05050d;
+	background-size: cover;
+}
+
+.wrap {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.header {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	height: 4rem;
+	width: 100%;
+	border: 3px solid @coffee;
+	&::before {
+		content:'';
+		position: absolute;
+		z-index: -1;
+		height: 100%;
+		width: 100%;
+		background-color: @vanilla;
+		opacity: 70%;
+	}
+	.name-wrap {
+		margin-left: 1rem;
+		.name {
+			margin: 0;
+			.LoveCoffee();
+			font-size: 1.7rem;
+			color: @coffee;
+		}
+	}
+	.buttons-toggler {
+		display: flex;
+		justify-content: center;
+		width: 2.55rem;
+		.LoveCoffee();
+		font-size: 1.7rem;
+		color: @coffee;
+		text-decoration: none;
+	}
+}
+
+.content {
+	display: flex;
+	width: 100%;
+	flex-grow: 1;
+	height: 1px;
+	.data-wrap {
+		display: flex;
+		justify-content: center;
+		margin-top: 1rem;
+		width: 80%;
+		color: @milk;
+		.data-table {
+			display: flex;
+			flex-direction: column;
+			height: 95%;
+			width: 90%;
+			&-head {
+				padding-right: 9px;
+			}
+			&-body {
+				flex-grow: 1;
+				overflow-y: scroll;
+				&::-webkit-scrollbar {
+				  	width: 10px;
+				}
+				&::-webkit-scrollbar-track {
+				  	background: transparent;
+				}
+				&::-webkit-scrollbar-thumb {
+				 	background-color: @latte;
+				 	border-radius: 10px;
+				  	border: 2px solid @coffee;
+				}
+			}
+		}
+	}
+}
+
+.buttons-section {
+	position: absolute;
+	z-index: 1;
+	top: 4rem;
+	right: 12px;
+	width: 16.5rem;
+	.buttons {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-content: center;
+		padding: 5px 0;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		&::before {
+			content:'';
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background-color: @milk;
+			opacity: 70%;
+		}
+	}
+}
+
+.button {
+	display: block;
+	min-width: 10rem;
+	margin: 5px 0;
+	border: 2px solid @coffee;
+	border-radius: 5px;
+	.LoveCoffee();
+	font-size: 1.2rem;
+	background-color: @coffee;
+	color: @milk;
+	&:hover {
+		color: @vanilla;
+		box-shadow: 0 0 1.5rem @coffee;
+
+	}
+}
+
+.btn-insert {
+	background-color: @latte;
+	color: @milk;
+	&:hover {
+		color: @vanilla;
+		box-shadow: 0 0 1.5rem @latte;
+
+	}
+}
+.btn-delete {
+	background-color: @coffee;
+	color: @milk;
+	&:hover {
+		color: @vanilla;
+		box-shadow: 0 0 1.5rem @coffee;
+
+	}
+}
+.btn-update {
+	background-color: @espresso;
+	color: @milk;
+	&:hover {
+		color: @vanilla;
+		box-shadow: 0 0 1.5rem @espresso;
+
+	}
+}
+
+table {
+	width: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	border-collapse: collapse;
+	table-layout: fixed;	
+	th {
+	  	padding: 0.5rem;
+	  	background-color: @latte;
+	  	border: 2px solid @coffee;
+	}
+	td {
+		position: relative;
+	  	padding: 0.5rem;
+	  	color: @coffee;
+	  	border: 2px solid @coffee;
+	  	&::before {
+	  		content: '';
+	  		position: absolute;
+	  		z-index: -1;
+	  		height: 100%;
+	  		width: 100%;
+	  		top: 0;
+	  		left: 0;
+	  		background-color: @milk;
+	  		opacity: 75%;
+	  	}
+	}
+}
+
+.modal-content {
+	border: 2px solid @coffee;
+	background-color: @latte;
+	.LoveCoffee();
+	color: @milk;
+	.modal-header {
+		border-bottom: 2px solid @coffee;
+	}
+	.modal-body {
+		background-color: @coffee;
+	}
+	.modal-footer {
+		border-top: 2px solid @coffee;
+	}
+}
+
+form {
+	input {
+		margin-bottom: 10px;
+		border: 2px solid @espresso;
+		border-radius: 5px;
+		background-color: @milk;
+		&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		  color: @coffee;
+		  opacity: 1; /* Firefox */
+		}
+	}
+}
+
+@media (max-width: 1199.5px) {
+	.buttons-section {
+		width: 14rem;
+	}
+}
+
+@media (max-width: 991.5px) {
+	.content {
+		.data-wrap {
+			width: 100%;
+		}
+	}
+}

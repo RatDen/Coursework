@@ -1,0 +1,685 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"arra",
+				"array()"
+			],
+			[
+				"pg_fetch",
+				"pg_fetch_result()"
+			],
+			[
+				"pg",
+				"pg_execute"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"justify",
+				"justify-content"
+			],
+			[
+				"data",
+				"data-wrap"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"borr",
+				"border-radius"
+			],
+			[
+				"fwra",
+				"flex-wrap"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"logo",
+				"logo.png"
+			],
+			[
+				"tranlate",
+				"translateY"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"bg",
+				"bg-color"
+			],
+			[
+				"button-",
+				"button-danger"
+			],
+			[
+				"succ",
+				"success-shadow"
+			],
+			[
+				"button",
+				"button-success"
+			],
+			[
+				"bc",
+				"border-color"
+			],
+			[
+				"ro",
+				"RollboxBold"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"translate",
+				"translate()"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"su",
+				"success-modal"
+			],
+			[
+				"oran",
+				"orange-shadow"
+			],
+			[
+				"suc",
+				"success-shadow"
+			],
+			[
+				"box-si",
+				"box-sizing"
+			],
+			[
+				"bs",
+				"box-sizing"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"ju",
+				"justify-content"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"fs",
+				"font-size"
+			],
+			[
+				"menu-item-",
+				"menu-item-hover"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"lamp",
+				"lamp-off"
+			],
+			[
+				"se",
+				"servises"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"ele",
+				"elemArray"
+			],
+			[
+				"elem",
+				"elemArray"
+			],
+			[
+				"menu-",
+				"menu-button"
+			],
+			[
+				"menu",
+				"menuAnimations.js"
+			],
+			[
+				"orange",
+				"orange-shadow"
+			],
+			[
+				"borc",
+				"border-color"
+			],
+			[
+				"lo",
+				"logo.png"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"sky",
+				"deepskyblue"
+			],
+			[
+				"drop",
+				"drop-shadow()"
+			],
+			[
+				"sha",
+				"drop-shadow()"
+			],
+			[
+				"deep",
+				"deepskyblue"
+			],
+			[
+				"conten",
+				"content"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"star",
+				"StarLight.ttf"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"style",
+				"style.css"
+			],
+			[
+				"ba",
+				"background1.jpg"
+			],
+			[
+				"ra",
+				"rat pointer.png"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"mg",
+				"margin-top"
+			],
+			[
+				"high",
+				"height"
+			],
+			[
+				"heade",
+				"header-btn-box"
+			],
+			[
+				"da",
+				"data_output"
+			],
+			[
+				"modal-",
+				"modal-insert"
+			],
+			[
+				"fu",
+				"functions.js"
+			],
+			[
+				"buy",
+				"buyer_id"
+			],
+			[
+				"buyer",
+				"buyer_id"
+			],
+			[
+				"product",
+				"product_id"
+			],
+			[
+				"prod",
+				"product_id"
+			],
+			[
+				"bue",
+				"buyer_id"
+			],
+			[
+				"connect",
+				"connect.php"
+			],
+			[
+				"echo",
+				"echo()"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"mh",
+				"max-height"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"lato",
+				"lato-reg"
+			],
+			[
+				"lato-",
+				"lato-bold"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"lig",
+				"light-orange"
+			],
+			[
+				"tt",
+				"tt:u\ttext-transform:uppercase"
+			],
+			[
+				"nav-",
+				"nav-item"
+			],
+			[
+				"s",
+				"style.css"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: start",
+				"Snippet: start"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"snippet start",
+				"Snippet: bs3-template.starter"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings"
+			],
+			[
+				"packages",
+				"Preferences: Package Control Settings"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/OSPanel/domains/Coursework/index.html",
+		"/C/OSPanel/domains/Coursework/js/functions.js",
+		"/C/OSPanel/domains/Coursework/php/update.php",
+		"/C/OSPanel/domains/Coursework/php/exists.php",
+		"/C/OSPanel/domains/Coursework/php/output.php",
+		"/C/OSPanel/domains/Coursework/php/insert.php",
+		"/C/OSPanel/domains/Coursework/php/delete.php",
+		"/C/OSPanel/domains/Coursework/less/style.less",
+		"/C/OSPanel/domains/Coursework/project.sublime-project",
+		"/C/OSPanel/domains/Coursework/src/js/functions.js",
+		"/C/OSPanel/domains/Coursework/src/index.html",
+		"/C/OSPanel/domains/Coursework/src/php/delete.php",
+		"/C/OSPanel/domains/Coursework/src/php/exists.php",
+		"/C/OSPanel/domains/Coursework/src/less/style.less",
+		"/C/OSPanel/domains/Coursework/src/php/update.php",
+		"/C/OSPanel/domains/Coursework/src/php/output.php",
+		"/C/OSPanel/domains/Coursework/src/js/dataOutput.js",
+		"/C/ospanel/domains/Portfolio/src/js/menuAnimations.js",
+		"/C/ospanel/domains/Portfolio/src/index.html",
+		"/C/ospanel/domains/Portfolio/src/less/style.less",
+		"/C/OSPanel/domains/Coursework/src/js/data_output.js",
+		"/C/OSPanel/domains/Portfolio2.0/src/less/style.less",
+		"/C/ospanel/domains/Portfolio 2.0/src/css/style.css",
+		"/C/ospanel/domains/Portfolio 2.0/src/index.html",
+		"/C/ospanel/domains/Portfolio 2.0/src/less/style.less",
+		"/C/ospanel/domains/MyPortfolio/src/index.html",
+		"/C/ospanel/domains/MyPortfolio/src/less/style.less",
+		"/C/ospanel/domains/MyPortfolio/src/css/style.css",
+		"/D/Work/Test/src/less/style.less",
+		"/D/Work/MyPortfolio/src/index.html",
+		"/D/Work/MyPortfolio/src/less/style.less",
+		"/D/Work/Заготовка/src/less/style.less",
+		"/C/OSPanel/domains/test/delete.php",
+		"/C/ospanel/domains/test/function.js",
+		"/C/ospanel/domains/test/index.php",
+		"/C/ospanel/domains/Coursework/src/php/insert.php",
+		"/C/ospanel/domains/Coursework/src/index.html",
+		"/C/ospanel/domains/Coursework/src/php/output.php",
+		"/C/OSPanel/domains/test/output.php",
+		"/C/OSPanel/domains/test/function.js",
+		"/C/OSPanel/domains/test/write.php",
+		"/C/Users/Ratman/AppData/Roaming/Sublime Text/Packages/User/start.sublime-snippet",
+		"/C/ospanel/domains/Coursework/src/php/connect.php",
+		"/D/Work/Coursework/src/css/style.css",
+		"/D/Work/Coursework/src/less/style.less",
+		"/D/Work/Coursework/src/php/insert.php",
+		"/D/Work/Coursework/src/php/connect.php",
+		"/D/Work/Coursework/src/index.php",
+		"/C/ospanel/domains/Coursework/index.php",
+		"/D/Work/Заготовка/src/index.html",
+		"/D/Work/Заготовка/src/css/style.css",
+		"/D/Work/Test/src/index.html",
+		"/D/Work/MySite/src/css/style.css",
+		"/D/Work/MySite/src/index.html",
+		"/C/Users/Ratman/AppData/Roaming/Sublime Text/Packages/User/Emmet.sublime-settings"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 37.6
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 28.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 52.8
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"12":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"26":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"89":
+				{
+					"group": 0,
+					"index": 2
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

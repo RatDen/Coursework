@@ -1,0 +1,293 @@
+@font-face {
+  font-family: "LoveCoffee";
+  src: url("../fonts/LoveCoffee.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+html {
+  font-style: 10px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #05050d;
+  background-size: cover;
+}
+.wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+.header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 4rem;
+  width: 100%;
+  border: 3px solid #6f4e37;
+}
+.header::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-color: #f3e5ab;
+  opacity: 70%;
+}
+.header .name-wrap {
+  margin-left: 1rem;
+}
+.header .name-wrap .name {
+  margin: 0;
+  font-family: 'LoveCoffee', sans-serif;
+  font-weight: 300;
+  font-size: 1.7rem;
+  color: #6f4e37;
+}
+.header .buttons-toggler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 2.55rem;
+  font-family: 'LoveCoffee', sans-serif;
+  font-weight: 300;
+  font-size: 1.7rem;
+  color: #6f4e37;
+  text-decoration: none;
+}
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 1px;
+}
+.content .data-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+  width: 80%;
+  color: #f5edda;
+}
+.content .data-wrap .data-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 95%;
+  width: 90%;
+}
+.content .data-wrap .data-table-head {
+  padding-right: 9px;
+}
+.content .data-wrap .data-table-body {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  overflow-y: scroll;
+}
+.content .data-wrap .data-table-body::-webkit-scrollbar {
+  width: 10px;
+}
+.content .data-wrap .data-table-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+.content .data-wrap .data-table-body::-webkit-scrollbar-thumb {
+  background-color: #a67b5b;
+  border-radius: 10px;
+  border: 2px solid #6f4e37;
+}
+.buttons-section {
+  position: absolute;
+  z-index: 1;
+  top: 4rem;
+  right: 12px;
+  width: 16.5rem;
+}
+.buttons-section .buttons {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 5px 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.buttons-section .buttons::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f5edda;
+  opacity: 70%;
+}
+.button {
+  display: block;
+  min-width: 10rem;
+  margin: 5px 0;
+  border: 2px solid #6f4e37;
+  border-radius: 5px;
+  font-family: 'LoveCoffee', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  background-color: #6f4e37;
+  color: #f5edda;
+}
+.button:hover {
+  color: #f3e5ab;
+  -webkit-box-shadow: 0 0 1.5rem #6f4e37;
+          box-shadow: 0 0 1.5rem #6f4e37;
+}
+.btn-insert {
+  background-color: #a67b5b;
+  color: #f5edda;
+}
+.btn-insert:hover {
+  color: #f3e5ab;
+  -webkit-box-shadow: 0 0 1.5rem #a67b5b;
+          box-shadow: 0 0 1.5rem #a67b5b;
+}
+.btn-delete {
+  background-color: #6f4e37;
+  color: #f5edda;
+}
+.btn-delete:hover {
+  color: #f3e5ab;
+  -webkit-box-shadow: 0 0 1.5rem #6f4e37;
+          box-shadow: 0 0 1.5rem #6f4e37;
+}
+.btn-update {
+  background-color: #4b3621;
+  color: #f5edda;
+}
+.btn-update:hover {
+  color: #f3e5ab;
+  -webkit-box-shadow: 0 0 1.5rem #4b3621;
+          box-shadow: 0 0 1.5rem #4b3621;
+}
+table {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+table th {
+  padding: 0.5rem;
+  background-color: #a67b5b;
+  border: 2px solid #6f4e37;
+}
+table td {
+  position: relative;
+  padding: 0.5rem;
+  color: #6f4e37;
+  border: 2px solid #6f4e37;
+}
+table td::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f5edda;
+  opacity: 75%;
+}
+.modal-content {
+  border: 2px solid #6f4e37;
+  background-color: #a67b5b;
+  font-family: 'LoveCoffee', sans-serif;
+  font-weight: 300;
+  color: #f5edda;
+}
+.modal-content .modal-header {
+  border-bottom: 2px solid #6f4e37;
+}
+.modal-content .modal-body {
+  background-color: #6f4e37;
+}
+.modal-content .modal-footer {
+  border-top: 2px solid #6f4e37;
+}
+form input {
+  margin-bottom: 10px;
+  border: 2px solid #4b3621;
+  border-radius: 5px;
+  background-color: #f5edda;
+}
+form input::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6f4e37;
+  opacity: 1;
+  /* Firefox */
+}
+form input:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6f4e37;
+  opacity: 1;
+  /* Firefox */
+}
+form input::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6f4e37;
+  opacity: 1;
+  /* Firefox */
+}
+form input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6f4e37;
+  opacity: 1;
+  /* Firefox */
+}
+@media (max-width: 1199.5px) {
+  .buttons-section {
+    width: 14rem;
+  }
+}
+@media (max-width: 991.5px) {
+  .content .data-wrap {
+    width: 100%;
+  }
+}
